@@ -6,9 +6,9 @@ Superclass has attributes and methods that will and must be inherited by it's su
 
 public class Vehicle{
 
-    private int noOfPassenegers;
-    private int noOfVehicles;
-    private String manufacturer;
+    public int noOfPassenegers;
+    public int noOfWheels;
+    public String manufacturer;
 
     public void accelerate()
     {
